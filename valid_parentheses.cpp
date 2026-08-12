@@ -26,7 +26,7 @@ bool isValid(string s) {
         }
     }
 
-    return true;
+    return st.empty(); //issue fixed
 }
 
 int main() {
